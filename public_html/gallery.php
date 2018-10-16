@@ -11,7 +11,7 @@
 		<title>Art Gallery - Gallery</title>
 	</head>
 	<header>
-		<nav class="navbar">
+		<nav class="navbar navbar-dark bg-dark">
 			<a class="navbar-brand" href="index.php">Art Gallery</a>
 			<ul class="nav justify-content-end">
 				<li class="nav-item">
