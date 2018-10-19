@@ -40,7 +40,12 @@
 
 		<!-- Begin Page Content -->
 		<main class="container">
-
+			<div class="jumbotron">
+				<div class="container" style="background: transparent">
+					<h1 class="">Kevin Byall</h1>
+					<p class="">Artist</p>
+				</div>
+			</div>
 		</main>
 
 		<!-- Footer -->
