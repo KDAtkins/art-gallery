@@ -24,17 +24,22 @@
 			<!-- Navbar -->
 			<nav class="navbar navbar-dark bg-dark">
 				<a class="navbar-brand" href="index.php">Art Gallery</a>
-				<ul class="nav justify-content-end">
-					<li class="nav-item">
-						<a class="nav-link" href="gallery.php">Gallery</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="about.php">About</a>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link" href="contact.php">Contact</a>
-					</li>
-				</ul>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="nav justify-content-end">
+						<li class="nav-item">
+							<a class="nav-link" href="gallery.php">Gallery</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="about.php">About</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="contact.php">Contact</a>
+						</li>
+					</ul>
+				</div>
 			</nav>
 		</header>
 
