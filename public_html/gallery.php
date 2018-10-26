@@ -26,7 +26,7 @@
 						<a class="nav-link" href="gallery.php">Gallery</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="bio.php">About</a>
+						<a class="nav-link" href="bio.php">Bio</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link" href="contact.php">Contact</a>
