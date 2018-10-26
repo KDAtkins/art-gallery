@@ -1,4 +1,4 @@
-html {
+#index {
 	background: url("../images/byall-0.jpg") no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -13,6 +13,12 @@ body {
 	color: #333;
 	background-color: transparent !important;
 	/* important used here for demo */
+}
+
+#bio {
+	text-align: center;
+	margin-top: 3em;
+	margin-bottom: 3em;
 }
 
 .jumbotron {
