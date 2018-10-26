@@ -30,7 +30,7 @@
 							<a class="nav-link" href="gallery.php">Gallery</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="about.php">About</a>
+							<a class="nav-link" href="bio.php">About</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="contact.php">Contact</a>
@@ -42,6 +42,10 @@
 
 		<!-- Begin Page Content -->
 		<main class="container">
+			<div class="row">
+				<h1>Bio</h1>
+			</div>
+
 			<div class="media">
 				<div class="row">
 					<img class="align-self-center mr-3 col-sm-6" src="images/byall-1.jpg"/>
