@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="bio-page">
 	<head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -14,7 +14,7 @@
 		<!-- Font Awesome CDN -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 
-		<title>Art Gallery - About</title>
+		<title>Art Gallery - Bio</title>
 	</head>
 
 	<!-- Body -->
@@ -53,7 +53,7 @@
 				<div class="row">
 					<img class="align-self-center mr-3 mb-3 col-sm-6" src="images/byall-1.jpg"/>
 					<div class="media-body col-sm-6">
-						<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero nunc consequat interdum varius sit amet mattis vulputate enim. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Et tortor at risus viverra adipiscing at in. Libero volutpat sed cras ornare arcu. Metus vulputate eu scelerisque felis imperdiet. Faucibus nisl tincidunt eget nullam non. Sed risus pretium quam vulputate dignissim suspendisse in. Rhoncus mattis rhoncus urna neque viverra justo. Pellentesque adipiscing commodo elit at imperdiet dui accumsan sit. Nunc sed augue lacus viverra vitae congue eu. In cursus turpis massa tincidunt dui ut ornare lectus. Scelerisque varius morbi enim nunc faucibus a pellentesque. Ac odio tempor orci dapibus ultrices in iaculis. Est sit amet facilisis magna etiam tempor orci eu lobortis. Viverra mauris in aliquam sem fringilla ut morbi. Donec ac odio tempor orci. Amet dictum sit amet justo donec enim diam vulputate ut. Adipiscing elit ut aliquam purus sit. Senectus et netus et malesuada fames ac turpis egestas.</p>
+						<p class="">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Libero nunc consequat interdum varius sit amet mattis vulputate enim. Rhoncus mattis rhoncus urna neque viverra justo nec ultrices. Et tortor at risus viverra adipiscing at in. Libero volutpat sed cras ornare arcu. Metus vulputate eu scelerisque felis imperdiet. Faucibus nisl tincidunt eget nullam non. Sed risus pretium quam vulputate dignissim suspendisse in.</p>
 
 						<p>Dignissim enim sit amet venenatis urna cursus. Mauris rhoncus aenean vel elit. At quis risus sed vulputate. Nunc vel risus commodo viverra maecenas accumsan lacus. Sagittis orci a scelerisque purus. Nisl purus in mollis nunc. Faucibus interdum posuere lorem ipsum dolor sit. Id diam vel quam elementum pulvinar etiam non quam. Quam viverra orci sagittis eu volutpat odio facilisis mauris. Consequat ac felis donec et. Sagittis aliquam malesuada bibendum arcu vitae elementum. Massa sapien faucibus et molestie ac feugiat. Nec sagittis aliquam malesuada bibendum arcu vitae elementum curabitur. Est lorem ipsum dolor sit amet consectetur. Tincidunt praesent semper feugiat nibh sed. Adipiscing commodo elit at imperdiet dui accumsan sit. Arcu bibendum at varius vel. Nulla porttitor massa id neque aliquam vestibulum morbi blandit cursus. Enim tortor at auctor urna nunc id cursus. Dui ut ornare lectus sit amet est.</p>
 					</div>
@@ -62,7 +62,7 @@
 		</main>
 
 		<!-- Footer -->
-		<footer class="footer fixed-bottom">
+		<footer class="footer">
 			<div class="container">
 				<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
 				<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
