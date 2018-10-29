@@ -46,7 +46,7 @@
 		<!-- Begin Page Content -->
 		<main class="container">
 			<div class="row" id="bio">
-				<h1 class="col-sm">Bio</h1>
+				<h1 class="col-sm bio-head">Bio</h1>
 			</div>
 
 			<div class="media m-5">
