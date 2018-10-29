@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" id="index">
+<html lang="en" id="index-page">
 	<head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -46,15 +46,15 @@
 		<!-- Begin Page Content -->
 		<main class="container">
 			<div class="jumbotron">
-				<div class="container" style="background: transparent">
-					<h1 class="">Kevin Byall</h1>
-					<p class="">Artist</p>
+				<div class="container">
+					<h1 class="" id="artist-name">Kevin Byall</h1>
+					<p class="" id="artist-title">Artist</p>
 				</div>
 			</div>
 		</main>
 
 		<!-- Footer -->
-		<footer class="footer fixed-bottom">
+		<footer class="footer">
 			<div class="container">
 				<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
 				<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
