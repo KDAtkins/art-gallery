@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="contact-page">
 	<head>
 		<!-- Required meta tags -->
 		<meta charset="utf-8">
@@ -46,11 +46,13 @@
 
 		<!-- Begin Page Content -->
 		<main class="container">
-
+			<div class="row" id="contact">
+				<h1 class="col-sm contact-head">Contact</h1>
+			</div>
 		</main>
 
 		<!-- Footer -->
-		<footer class="footer fixed-bottom">
+		<footer class="footer">
 			<div class="container">
 				<a href="#"><i class="fab fa-instagram fa-2x"></i></a>
 				<a href="#"><i class="fab fa-facebook fa-2x"></i></a>
