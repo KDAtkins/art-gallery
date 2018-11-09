@@ -1,3 +1,7 @@
+<?php
+include 'connect.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en" id="gallery-page">
 	<head>
@@ -48,6 +52,42 @@
 			<div class="row" id="gallery">
 				<h1 class="col-sm gallery-head">Gallery</h1>
 			</div>
+			<div class="form-group col-3">
+				<label>Select Category</label>
+				<select class="form-control mb-2">
+					<option value="wood">Metal</option>
+					<option value="steel">Steel</option>
+					<option value="stone">Stone</option>
+					<option value="wood">Wood</option>
+				</select>
+			</div>
+
+			<?php
+//			$displayImages = $dbh->prepare("SELECT imageName FROM image");
+//			$displayImages->execute();
+
+			$results = $dbh->query("SELECT * FROM image");
+			var_dump($results->fetch_all());
+
+			$category = "";
+
+			$wood = $_POST["wood"];
+			$steel = $_POST["steel"];
+			$stone = $_POST["stone"];
+			$metal = $_POST["metal"];
+
+			if($category == $wood){
+
+			} elseif($category == $steel){
+
+			}elseif($category == $stone){
+
+			}elseif($category == $metal){
+
+			}
+			
+			?>
+
 		</main>
 
 		<!-- Footer -->
