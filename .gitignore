@@ -1,3 +1,4 @@
 .DS_Store
 /.idea
-/public_html/connect.php
+/images
+../public_html/connect.php
