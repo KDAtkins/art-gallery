@@ -45,12 +45,18 @@
 
 		<!-- Begin Page Content -->
 		<main class="container">
-			<div class="jumbotron">
-				<div class="container">
-					<h1 class="" id="artist-name">Kevin Byall</h1>
-					<p class="" id="artist-title">Artist</p>
+<!--			<div class="jumbotron">-->
+				<div class="row">
+					<div class="col-lg-2 col-2"></div>
+					<div class="col-lg-4 col-4" >
+						<h1 class="mr-2" id="artist-first">Kevin</h1>
+					</div>
+					<div class="col-lg-4 col-4" >
+						<h1 class="ml-2" id="artist-last">Byall</h1>
+					</div>
+					<div class="col-lg-2 col-2"></div>
 				</div>
-			</div>
+<!--			</div>-->
 		</main>
 
 		<!-- Footer -->
