@@ -1,5 +1,21 @@
 <?php
 
+function getOptions(){
+
+	$categories = ['all' => 'All', 'wood' => 'Wood', 'steel' => 'Steel', 'stone' => 'Stone', 'metal' => 'Metal'];
+	$options = '';
+
+	while(list($key, $value) = each($categories)){
+
+		$options .= '<option value="' . $key . '">' . $value . '</option>';
+
+	}
+
+	return $options;
+
+}
+
+
 function get_image_category_name(){
 	include 'connect.php';
 
