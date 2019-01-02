@@ -1,5 +1,5 @@
 <?php
-include 'connect.php';
+include 'functions.php';
 ?>
 
 <!DOCTYPE html>
@@ -14,6 +14,9 @@ include 'connect.php';
 
 		<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
 
 		<!-- Font Awesome CDN -->
 		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
@@ -52,41 +55,29 @@ include 'connect.php';
 			<div class="row" id="gallery">
 				<h1 class="col-sm gallery-head">Gallery</h1>
 			</div>
+
 			<div class="form-group col-3">
 				<label>Select Category</label>
-				<select class="form-control mb-2">
-					<option value="wood">Metal</option>
-					<option value="steel">Steel</option>
-					<option value="stone">Stone</option>
-					<option value="wood">Wood</option>
-				</select>
+				<form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post">
+					<select name="categories" class="form-control mb-2" onchange="this.form.submit();">
+						<?php
+
+						echo getOptions();
+
+						?>
+					</select>
+				</form>
 			</div>
 
-			<?php
-//			$displayImages = $dbh->prepare("SELECT imageName FROM image");
-//			$displayImages->execute();
+			<div class="container-fluid">
+				<?php
 
-			$results = $dbh->query("SELECT * FROM image");
-			var_dump($results->fetch_all());
+				foreach(get_image_category_name() as $item){
+					echo "<img src='gallery/" . $item['imageCategory'] . "/" . $item['imageName'] . "'/>";
+				}
 
-			$category = "";
-
-			$wood = $_POST["wood"];
-			$steel = $_POST["steel"];
-			$stone = $_POST["stone"];
-			$metal = $_POST["metal"];
-
-			if($category == $wood){
-
-			} elseif($category == $steel){
-
-			}elseif($category == $stone){
-
-			}elseif($category == $metal){
-
-			}
-			
-			?>
+				?>
+			</div>
 
 		</main>
 
@@ -103,5 +94,6 @@ include 'connect.php';
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.js"></script>
 	</body>
 </html>
