@@ -7,24 +7,54 @@
 }
 
 body {
+	margin: 0;
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-	font-size: 14px;
+	/*font-size: 14px;*/
 	line-height: 1.42857143;
 	color: #333;
 	background-color: transparent !important;
 	/* important used here for demo */
 }
 
-.navbar {
-	height: 85px;
+.tab {
+	text-indent: 40px;
 }
 
-.footer {
-	position: sticky;
-	bottom: 0;
+.imageHeader {
+	margin: .4vw;
+	font-size: 0;
+	display: -ms-flexbox;
+	-ms-flexbox-wrap: wrap;
+	-ms-flexbox-direction: column;
+	-webkit-flex-flow: row wrap;
+	flex-flow: row wrap;
+	display: -webkit-box;
+	display: flex;
+}
+
+.imageHeader .imageDiv {
+	-webkit-box-flex: inherit;
+	-ms-flex: auto;
+	flex: auto;
+	width: 325px;
+	margin: .4vw;
+}
+
+.imageHeader .imageDiv img{
 	width: 100%;
-	height: 45px;
-	clear: both;
+	height: auto;
+}
+
+.contact-img {
+	flex: auto;
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	position: absolute;
+	width: 100%;
+	height : 60px;
 }
 
 /*index page*/
@@ -32,24 +62,16 @@ body {
 #artist-first {
 	text-align: left;
 	font-size: 40px;
-	/*background: -webkit-linear-gradient(#F6FCFA, #827F75);*/
-	/*-webkit-background-clip: text;*/
-	/*-webkit-text-fill-color: transparent;*/
 	color: #F6FCFA;
 	text-shadow: 2px 2px #827F75;
 	margin-top: 10.30em;
-	/*margin-bottom: 2em;*/
 }
 
 #artist-last {
 	text-align: right;
 	font-size: 40px;
-	/*background: -webkit-linear-gradient(#F6FCFA, #827F75);*/
-	/*-webkit-background-clip: text;*/
-	/*-webkit-text-fill-color: transparent;*/
 	text-shadow: 2px 2px #827F75;
 	margin-top: 10.30em;
-	/*margin-bottom: 2em;*/
 	color: #F6FCFA;
 }
 
@@ -60,7 +82,6 @@ body {
 /*gallery page*/
 
 #gallery {
-	text-align: center;
 	margin-top: 4em;
 	margin-bottom: 3em;
 }
@@ -68,6 +89,12 @@ body {
 .gallery-head {
 	font-size: 55px;
 }
+
+/*.gallery-container{*/
+	/*float: none;*/
+	/*margin: 100% auto;*/
+	/*max-width: 1500px;*/
+/*}*/
 
 /*bio page*/
 
@@ -93,8 +120,22 @@ body {
 	font-size: 55px;
 }
 
+.contact-email, .email {
+	text-align: center;
+}
+
+.contact-container {
+	margin-top: 7.5em;
+	margin-bottom: 10.2em;
+}
+
+.fab {
+	color: #333A42;
+}
+
 
 /*Large devices (desktops, 992px and up)*/
+
 @media (min-width: 992px) {
 	#artist-first {
 		font-size: 60px;
@@ -125,6 +166,25 @@ body {
 		margin-top: 5em;
 		margin-bottom: 0.3em;
 		font-size: 75px;
+		color: #F6FCFA;
+		text-shadow: 2px 2px #827F75;
+	}
+
+}
+
+@media (min-width: 1800px) {
+	#artist-first {
+		font-size: 85px;
+		margin-top: 6.5em;
+		margin-bottom: 0.3em;
+		color: #F6FCFA;
+		text-shadow: 2px 2px #827F75;
+	}
+
+	#artist-last {
+		font-size: 85px;
+		margin-top: 6.5em;
+		margin-bottom: 0.3em;
 		color: #F6FCFA;
 		text-shadow: 2px 2px #827F75;
 	}
